@@ -1,0 +1,885 @@
+$whiteColor:white;
+$blackColor:black;
+$greyColor:#3d3d3d;
+$mainFontFamily: 'Raleway', sans-serif;
+.wrapper{
+
+  color: $whiteColor;
+  overflow-x: hidden;
+  font-family: $mainFontFamily;
+  .fa:hover{
+          cursor: pointer;
+        }
+  .wrapperFon{
+    border-top: 3px solid #63d4c5;
+    background: url('Background.jpg') ;
+  -webkit-background-size: cover;
+  background-size: cover;
+     height: 100%;
+         .navbar{
+          border: none;
+          background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(26,26,26) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(26,26,26) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(26,26,26) 100%);
+  opacity: 0.8;
+   height: 94px;
+          padding-top: 3%;
+      color: $whiteColor;
+      letter-spacing: 0.06em;
+        .fa{
+          padding-left: 4%;
+        }
+
+        .divForLogo{
+        text-align: center;
+        margin-top: -5%;
+      }
+        .ulNavbar{
+          text-align: left;
+          padding-left: 0;
+          li{
+            padding-left: 4.5%;
+            a{
+              color: white;
+              text-decoration: none;
+            }
+            a:hover{
+              color: #a3ebf1;
+            }
+          }
+        }
+        .ulrowRight{
+          text-align: right;
+          padding-right: 0;
+          li{
+            padding-right: 5.5%;
+          }
+          .digit{
+            font-family: Roboto;
+          }
+        }
+            li{
+            display: inline;
+            }
+    }
+
+    .patternMain{
+      background: url('patternMain.png');
+
+      margin-left: 4%;
+      -webkit-background-size: 50% 50%;
+      background-size: 19% 100%;
+       background-repeat: no-repeat;
+
+
+    }
+    .arenda{
+  width: 52%;
+  padding-left: 5%;
+  margin-top: 5.8%;
+      #slideLeft{
+        margin-right: 2%;
+      }
+      #slideRight{
+       color: #a3a3a3;
+      }
+      .forP{
+        margin-top: 3%;
+         #p1{
+            font-size: 375%;
+            color: #a3ebf1;
+            font-weight: bold;
+            line-height: 0.833;
+            letter-spacing: 0.04em;
+         }
+         #p2{
+
+            font-weight: 600;
+            font-size: 250%;
+            letter-spacing: 0.04em;
+         }
+      }
+      .services{
+        background: white;
+        margin-top: 5.5%;
+        .ulService{
+          color: #878787;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-align: center;
+          padding-top: 3%;
+          li{
+            display: inline;
+            padding-right: 8%;
+            font-size: 100%;
+            line-height: 1.75;
+          }
+          li:hover{
+            color:#78cdd4 ;
+          }
+          #li4{
+            color: #78cdd4;
+          }
+        }
+        .ulService:hover{
+          cursor: pointer;
+        }
+        #hrAfterService{
+          margin-top: -1%;
+          margin-left: 5%;
+          margin-right: 7%;
+        }
+        .slogan{
+          padding-bottom: 5%;
+          .rowSlogan{
+            .colSlogan{
+              color: #555555;
+              font-size: 87.5%;
+              line-height: 2;
+              text-align: center;
+              letter-spacing: 0.04em;
+              padding-left: 7%;
+          }
+            .colBtn{
+              margin-top: -1%;
+              .btn{
+                text-transform: uppercase;
+                font-weight: 500;
+                .iconBtn{
+                  margin-left: 4%;
+                }
+              }
+          }
+          }
+
+        }
+      }
+    }
+    .mainbottom{
+      padding-bottom: 1.5%;
+     margin-top: 10%;
+      .btn{
+        border: none;
+        background: black;
+        color: $whiteColor;
+        margin-left: 5%;
+        font-size: 87.5%;
+      }
+      .iconBtnHowRent{
+        margin-left: 7%;
+        letter-spacing: 0.04em;
+      }
+      .chat{
+        text-align: right;
+        margin-top: -3%;
+        padding-right: 2%;
+          #imgChat:hover{
+        cursor: pointer;
+      }
+      }
+
+    }
+ 
+  }
+
+  .features{
+    color:$greyColor;
+      font-size: 100%;
+      color: #3d3d3d;
+      padding-top: 3%;
+      padding-left: 6%;
+      padding-right: 6%;
+       letter-spacing: 0.06em;
+        #hrFeat{
+          margin-top: 3%;
+           border: none; /* Убираем границу для браузера Firefox */
+            color: #e5e5e5; /* Цвет линии для остальных браузеров */
+            background-color: #e5e5e5; /* Цвет линии для браузера Firefox и Opera */
+            height: 2px; /* Толщина линии */
+        }
+  }
+  .popularObj{
+    padding-left: 4.5%;
+    color: $greyColor;
+    padding-top: 2%;
+    .obj{
+      width: 100%;
+      #tableTittle{
+        font-size: 245%;
+        color: rgb(61, 61, 61);
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        text-align: left;
+      }
+      #ulObj {
+        padding-top: 3%;
+        font-size: 100%;
+        color: rgb(61, 61, 61);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: right;
+        margin-right: 5%;
+
+        li{
+        display: inline;
+        padding-left: 5%;
+        span{
+          padding-bottom: 1%;
+          border-bottom: 2px solid #4bbcc5;
+        }
+
+        }
+
+        #rent{
+          color: #c6c6c6;
+        }
+      }
+      .colMap{
+
+      .map{
+        padding-top: 5%;
+        text-align: right;
+        padding-right: 10%;
+        font-size: 100%;
+        color: #c6c6c6;
+        font-weight: bold;
+        text-transform: uppercase;
+          li{
+            display: inline;
+          }
+          #selectRegion{
+            text-transform: uppercase;
+            border: none;
+            color: rgb(61, 61, 61);
+          }
+      }
+      .forMap{
+        margin-top: 9%;
+      }
+      }
+      .obj1{
+        background: url('1x.png');
+      }
+      .obj3{
+        background: url('obj2.jpg');
+      }
+      .obj2{
+        background: url('obj3.gif');
+      }
+      .obj4{
+        background: url('obj4.gif');
+      }
+      .ArrowTable1{
+        margin-top: 8%;
+        color: white;
+        -webkit-background-size: cover;
+        background-size: cover;
+          .fa{
+            padding-top: 32%;
+            padding-bottom: 32%;
+          }
+          #slideLeft{
+            margin-left: 3%;
+          }
+          #slideRight{
+            margin-left: 87%;
+          }
+      }
+      .TableText{
+        padding-top: 2%;
+        padding-left: 2%;
+        letter-spacing: 0.04em;
+          .info1, .info2{
+            font-weight: 600;
+             color: rgb(61, 61, 61);
+             padding-bottom: 1%;
+          }
+          .info{
+            width: 80%;
+            color: rgba(61, 61, 61, 0.651);
+            font-weight: bold;
+            font-size: 87.5%;
+              #mett, #kom{
+                border-right: 1px solid rgba(61, 61, 61, 0.651) ;
+              }
+              td{
+                padding-left: 2%;
+              }
+          }
+          .star{
+            padding-top: 2%;
+            img{
+              margin-right: 2%;
+            }
+          }
+      }
+      .lastSlogan{
+        font-size: 87.5%;
+        color: rgb(61, 61, 61);
+        line-height: 1.286;
+        letter-spacing: 0.04em;
+        text-align: right;
+        padding-top: 10%;
+        padding-right: 10%;
+      }
+      .pagination {
+        a{
+            color: $greyColor;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+        }
+        a.active{
+    background-color: #4bbcc5;
+    color: white;
+    border-radius: 3px 3px;
+        }
+        a:hover:not(.active) {background-color: #4bbcc5;
+          color: white;border-radius: 3px 3px;}
+        .fa{
+          color: #4bbcc5;
+        }
+
+      }
+    }
+    }
+
+    .Team{
+      padding-top: 5%;
+      padding-left: 4.5%;
+      margin-bottom: 5%;
+      letter-spacing: 0.04em;
+      color: $greyColor;
+      .tittleTeam{
+         color: rgb(61, 61, 61);
+        font-size: 245%;
+        font-weight: bold;
+      }
+      .divForHrTeam{
+        padding-left: 79%;
+        padding-right: 7%;
+         #hrTeam{
+        border: none; /* Убираем границу для браузера Firefox */
+        color: #4bbcc5; /* Цвет линии для остальных браузеров */
+        background-color: #4bbcc5;/* Цвет линии для браузера Firefox и Opera */
+        height: 1px; /* Толщина линии */
+
+      }
+      }
+      .InfoTeam{
+        background: url('patternTeam.png');
+        -webkit-background-size: 40% 100%;
+        background-size: 47% 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 10%;
+          .InfoTeamMain{
+            padding-top: 3%;
+            padding-bottom: 4%;
+            padding-left: 7%;
+            padding-right: 4%;
+          }
+          .InfoMore{
+            font-size:112.5% ;
+            font-weight: bold;
+            color: rgb(75, 188, 197);
+            padding-left: 7%;
+            letter-spacing: 0.08em;
+            cursor: pointer;
+          }
+      }
+      .btnTeam{
+         width: 339px;
+  height: 54px;
+        border-radius:0;
+        text-transform: uppercase;
+        background-color: rgb(75, 188, 197);
+        font-size: 112.5%;
+          font-weight: bold;
+  line-height: 1;
+      }
+      .patternRight{
+        background: url('patternTeamRight.png');
+        -webkit-background-size: -20% 100%;
+        background-size: 42% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-bottom: 1%;
+        padding-top: -10px;
+      }
+      .SloganTeam{
+        margin-left: 23%;
+        font-size:  150%;
+      }
+.slideArrowTeam{
+  text-align: right;
+  padding-right: 15%;
+  #slideLeft{
+    color: #cbcbcb;
+    padding-right: 2%;
+  }
+  #slideRight{
+    color: #4bbcc5;
+  }
+}
+ .rowTeam{
+  padding-top: 5%;
+    .teamInfo{
+      font-size: 112.5%;
+      padding-top: 5%;
+    }
+    }
+ }
+
+ .withUs{
+  color: $greyColor;
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+  padding-top: 3%;
+  letter-spacing: 0.04em;
+  background: url('patternWithUs.png');
+  -webkit-background-size: 20% 100%;
+  background-size: 17.5% 100%;
+  background-repeat: no-repeat;
+  .colWithUsLeft{
+    text-align: left;
+    font-weight: bold;
+    line-height: 0.45;
+    font-size: 250%;
+  }
+  .colWithUsRight{
+    color: rgb(75, 188, 197);
+    font-weight: bold;
+    line-height: 1;
+    font-size: 112.5%;
+    text-align: right;
+  }
+  .rowWithUs{
+    padding-top: 3%;
+    .Action{
+      font-size: 250%;
+      color: $whiteColor;
+      
+      line-height: 0.952;
+      letter-spacing: 0.06em;
+      font-weight: bold;
+      .SaleFlat{
+        background: url('saleFlat1_1x.jpg');
+        -webkit-background-size: cover;
+        background-size: cover;
+        padding-bottom: 50%;
+        padding-top: 7%;
+        padding-left: 11%;
+      }
+      .goToKatalog{
+        font-size: 18px;
+          color: rgb(75, 188, 197);
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0;
+  padding-top: 5%;
+      }
+      .BuyFlat{
+        background: url('buyFlat_1x.jpg');
+        -webkit-background-size: cover;
+        background-size: cover;
+        padding-bottom: 120%;
+        padding-top: 7%;
+        padding-left: 11%;
+      }
+      .ReservFlat{
+        background-image: url('Reserv_1x.jpg');
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 65%;
+        padding-top: 7%;
+        padding-left: 11%;
+      }
+      .btnGest{
+        background-color: rgb(75, 188, 197);
+width: 100%;
+ padding-top: 5%;
+ padding-bottom: 5%;
+   font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.8;
+  margin-top: 3%;
+  border: none;
+    img{
+      padding-left: 3%;
+      }
+    }
+    }
+  }
+ }
+
+ .Response{
+  color: $greyColor;
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+  padding-top: 5%;
+  letter-spacing: 0.04em;
+  .ResponseTittle{
+    font-size: 250%;
+    font-weight: bold;
+padding-bottom: 3%;
+  }
+  .ResponseVid{
+    iframe{
+    width: 100%;
+    height: 350px;
+  }
+  }
+  .slideArrowResponse{
+    text-align: right;
+   padding-bottom: 10%;
+    #slideLeft{
+    color: #cbcbcb;
+  }
+  #slideRight{
+    color: #4bbcc5;
+  }
+  }
+  .patternResponse{
+    background: url('patternResponse.png');
+    -webkit-background-size: 30% 100%;
+    background-size: 43% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .ResponseDate{
+    text-align: right;
+    color: rgba(61, 61, 61, 0.651);
+    line-height: 1.286;
+  }
+  .ResponseInfo{
+    padding-top: 3%;
+    letter-spacing: 0.08em;
+    /* text-align: justify; */
+    padding-bottom: 8%;
+    .ResponseInfoName{
+      color: rgba(61, 61, 61, 0.651);
+      font-weight: bold;
+      padding-top: 1%;
+    }
+  }
+  .AllResponse{
+      font-size: 18px;
+      color: rgb(75, 188, 197);
+      font-weight: bold;
+      line-height: 1;
+      margin-top: 5%;
+  }
+  .divBtnResponse{
+    text-align: right;
+   /*  padding-right: 10%; */
+   /*  margin-top: -2%; */
+   .btnResponse{
+    background-color: rgb(75, 188, 197);
+    text-transform: uppercase;
+    color: $whiteColor;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+
+   }
+  }
+ }
+
+ .blog{
+  color: $greyColor;
+  padding-top: 5%;
+  .divForBlog{
+    background: url('blogFon1x.png');
+    text-align: right;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .colBlogInfo{
+     padding-left: 3%;
+     .divForHrBlog{
+    margin-top: -5%;
+    margin-left: -75%;
+
+    hr{
+      width: 15%;
+      margin-top: 3%;
+           border: none; /* Убираем границу для браузера Firefox */
+            color: #4bbcc5; /* Цвет линии для остальных браузеров */
+            background-color: #4bbcc5; /* Цвет линии для браузера Firefox и Opera */
+            height: 2px; /* Толщина линии */
+    }
+  }
+  .InfoBlogMain{
+   /*  text-align: justify; */
+  line-height: 1.429;
+  padding-bottom: 12%;
+  }
+  .GoToBlog{
+    font-size: 18px;
+    color: rgb(75, 188, 197);
+    font-weight: bold;
+    line-height: 1;
+  }
+  }
+
+  .info1Blog{
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  .iconView{
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+ button{
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px 5px;
+  margin-right: 2%;
+  font-size: 12px;
+  padding: 5px 7px;
+
+ }
+ }
+
+ .question{
+
+  position: relative;
+  z-index: 100;
+  padding-top: 5%;
+  color: $greyColor;
+  padding-right: 4.5%;
+  padding-left: 4.5%;
+  .rowQuestion{
+    border: 2px solid rgb(240, 240, 240);
+  }
+  
+  .questionInfoLeft{
+    height: 275px;
+    background: #ffffff;
+    padding: 4% 3% 3.5% 3% ;
+/*     padding-right: 3.5%; */
+    /* border: 2px solid rgb(240, 240, 240); */
+    .tittleInfoQuestion1{
+      font-size: 30px;
+font-weight: bold;
+  line-height: 0.6;
+  padding-bottom: 5%;
+    }
+    .InfoQuestion1{
+      font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+padding-bottom: 5%;
+    }
+    .QuestionInput{
+      #inpQuestion{
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 4px;
+        width: 60%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+      }
+      #BtnCall{
+        background-color: rgb(75, 188, 197);
+        border-radius: 4px;
+        border: none;
+        padding: 2% 3%;
+        color: $whiteColor;
+        text-transform: uppercase;
+        margin-left: 2%;
+      }
+    }
+  }
+  .questionInfoRight{
+    height: 275px;
+    background: url('chair.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 4%;
+    padding-right: 3%;
+    text-align: right;
+    .tittleInfoQuestion2{
+      padding-top: 7.5%;
+       color: rgba(61, 61, 61, 0.302);
+       font-size: 50px;
+       font-weight: bold;
+  line-height: 0.36;
+  padding-bottom: 4%;
+    }
+    .InfoQuestion2{
+      font-size: 20px;
+font-weight: bold;
+  line-height: 0.9;
+    #aQuestion{
+      color: #4bbcc5;
+    }
+    }
+    .forBtnQuestion{
+      padding-top: 7%;
+      #BtnToBase{
+        border-radius: 4px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 1% 3% ;
+  text-transform: uppercase;
+
+      }
+    }
+  }
+ }
+
+ .footer{
+  margin-top: -2.5%;
+  letter-spacing: 0.06em;
+  background: url('footerFon1x.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-left: 4.5%;
+  padding-top: 6.5%;
+  .footerInfo{
+    padding-top: 10%;
+    width: 72%;
+  }
+  .footerConf{
+    padding-top: 16%;
+    padding-bottom: 9%;
+ color: rgba(255, 255, 255, 0.8);
+line-height: 1.133;
+letter-spacing: 0.06em;
+  #td1{
+    border-right: 1px solid white;
+    padding-right: 2%;
+  }
+  #td2{
+    padding-left: 2%;
+  }
+  }
+  .footerTittle{
+    font-size: 112.5%;
+color: rgba(255, 255, 255, 0.502);
+font-weight: bold;
+line-height: 1;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+  }
+
+  .ulFooter{
+    list-style-type: none;
+    padding-top: 21%;
+    li{
+      padding-bottom: 5%;
+      letter-spacing: 0.08em;
+      font-weight: normal;
+    }
+  }
+   .footerTittleService{
+    margin-left: -15%;
+  }
+  .footerService{
+    margin-left: -35%;
+  }
+  .footerTittleInfo{
+    margin-left: 5%;
+  }
+  .footerInformation{
+    margin-left: -10%;
+    li{
+      padding-bottom: 6%;
+    }
+  }
+  .footerTittleCall{
+    margin-left: 14%;
+  }
+  .footerCall{
+    padding-top: 10%;
+    margin-left: 5%;
+    li{
+      padding-bottom: 4%;
+      i{
+        padding-right: 5%;
+      }
+      span{
+        padding-left: 3%;
+        color: #b3b3b3;
+        font-family: $mainFontFamily;
+      }
+    }
+    .digit{
+      font-family: Roboto;
+    }
+    
+  }
+  .local{
+    margin-top: 12%;
+background: black;
+padding-top: 5%;
+padding-bottom: 3%;
+margin-left: 3%;
+margin-right: 5%;
+
+    #ulLocal{
+
+      list-style-type: none;
+      #liLocal{
+        padding-right: 5%;
+      }
+      li{
+        display: inline;
+        a{
+          color: white;
+        }
+        img{
+          padding-right: 2%;
+        }
+      }
+      
+    }
+  }
+ }
+  }
+
+
+@media (max-width:1440px)  and (min-width:992px){
+
+.imgTeam img{
+  width: 180px;
+}
+.imgTeam3 img{
+  width: 138px;
+}
+.forMap{
+iframe{
+  height: 850px;
+}
+}
+.info1Blog{
+    font-size: 85%;
+  }
+
+.BtnGest{
+ .btnGest{
+  span{
+    text-transform: lowercase;
+
+  }
+
+ }
+}
+}
+
+@media (max-width:1547px){
+    .footer{
+    .local{
+#liLocal{
+  a{
+    display: none;
+  }
+}
+    }
+    
+  }
+  }
